@@ -82,7 +82,7 @@ div .image{
     padding: 15px 0px 15px 45px;
     font-size: 18px;
     outline: none;
-    width: calc(100% - 15px);
+    width: calc(100% - 48px);
     
 }
 .search-input:hover{
@@ -103,7 +103,7 @@ div .image{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    right: 0px;
+    right: 20px;
 }
 .buttonss{
     text-align: center;
@@ -139,3 +139,16 @@ div .image{
 }
 
 
+/* Media Queries */
+
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+        background-color:rgb(223, 151, 163);
+        background-image: none;
+    }
+
+    .google {
+        width: 90%;
+    }
+}

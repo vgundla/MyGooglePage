@@ -17,12 +17,12 @@ div.buttons{
 }
 
 .buttons .hoverr:hover{
-    box-shadow: 0px 10px 10px gray;
+    text-shadow: 0px 10px 10px gray;
 text-decoration:underline black;
 }
 
 .buttons .boverr:hover{
-    box-shadow: 0px 10px 10px gray;
+    text-shadow: 0px 10px 10px gray;
 text-decoration:underline black;
 }
 
